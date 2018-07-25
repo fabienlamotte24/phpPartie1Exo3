@@ -5,13 +5,15 @@
     <title>Exercice 3</title>
   </head>
   <body>
-    <?php
+    <p>
+      <?php
       $km = 1;
-      echo $km . '<br />';
+      echo $km . ' , ';
       $km = 3;
-      echo $km . '<br />';
+      echo $km . ' , ';
       $km = 125;
       echo $km;
      ?>
+   </p>
   </body>
 </html>
