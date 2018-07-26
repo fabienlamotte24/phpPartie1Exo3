@@ -7,12 +7,13 @@
   <body>
     <p>
       <?php
-      $km = 1;
+      $km = 1;/*Déclaration de la variable*/
       echo $km . ' , ';
-      $km = 3;
+      $km = 3;/*Premier changement de la variable*/
       echo $km . ' , ';
-      $km = 125;
+      $km = 125;/*Second changement de la variable*/
       echo $km;
+      /*Affichage des variables avec echo*/
      ?>
    </p>
   </body>
